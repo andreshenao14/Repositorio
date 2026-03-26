@@ -17,7 +17,7 @@ t1.image("imagen.jpeg", width=200)
 t2.title("Análisis de datos con Python")
 t2.markdown( '**tel:** 3127377513 **| email:** andreshenao50@gmail.com' )
 
-steps=st.tabs(["Pestaña 1","Pestaña 2","Pestaña $\sqrt{9}$"])
+steps=st.tabs(["Pestaña 1","Pestaña 2",r"Pestaña $\sqrt{9}$"])
 
 with steps[0]:
     st.write("Contenido de la pestaña 1")
